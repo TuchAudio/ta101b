@@ -7,9 +7,9 @@ Fully symmetrical discrete op-amp phono preamp -- loosely inspirated by _Elektor
 ## Design quirks
 The preamp itself is **fully DC-coupled**, for optimum bass performance; however, that means that the _input stage offset_ is **multiplied** by the low-frecuency gain (+34 dB), which may result on stage saturation. To compensate for that, each channel provides room for `R+` or `R-` resistors, connecting the inverting input (feedback) to the power rails, in case some manual adjustment is needed.
 
-Just like the original build, a **subsonic filter** is integrated into the board. This is a **fourth-order high pass filter** (24 dB/oct) with a cutoff frequency of **11.8 Hz**; again, based on an _Elektor_ design (_Summer circuits 1984_). However, the high gain of the stage at low frequencies might saturate the preamp itself before the filter, in extreme cases.
+Just like the original build, a **subsonic filter** is integrated into the board. This is a **fourth-order high pass filter** (24 dB/oct) with a cutoff frequency of **11.8 Hz**; again, based on an _Elektor_ design (_Summer Circuits 1984_). However, since it is located _after_ the amplification, the high gain of the stage at low frequencies might saturate the preamp itself, in extreme cases.
 
-DIN and RCA jacks are provided for signal input. Since the _native_ input impedance, being a symmetric op-amp design, is expected ti be **extremely high**, space for suitable load (`Rx` and `Cx`) is provided for perfect adaptation; but for added flexibility, it is possible to use the free input for a suitable RC combo in parallel, to match the appropriate cartridge load.
+DIN and RCA jacks are provided for signal input. Since the _native_ input impedance, being a symmetric op-amp design, is expected to be **extremely high**, space for suitable load (`Rx` and `Cx`) is provided for perfect adaptation; but for added flexibility, it is possible to use the free input for a suitable RC combo in parallel, to match the appropriate cartridge load.
 
 Both direct and subsonic-filtered outputs are provided, and properly selected thru the [509 Input Selector board](). An aditional RCA **output** jack can be installed in order to use the circuit as a _stand-alone preamp_.
 
@@ -26,7 +26,7 @@ While being fully DC-coupled is definitely desirable from a sound quality standp
 - **Gain at 1 kHz:** x50 (+34 dB)
 - **Input sensitivity:** 3.6 mV (for 180 mV output)
 - **Input impedance:** determined by `Rx/Cx`, either internal or external.
-- **Output level and impedance**: 180 mV / 1 KΩ
-- **Overload margin:**: at least +15 dB
+- **Output level and impedance:** 180 mV / 1 KΩ
+- **Overload margin:** at least +15 dB
 - **Signal-to-noise ratio:** more than 80 dB (estimated)
 - **Distortion:** TBD
