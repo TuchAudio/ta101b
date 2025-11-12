@@ -23,6 +23,7 @@ While being fully DC-coupled is definitely desirable from a sound quality standp
 
 ## Specs
 
+- **Power Supply:** +/- 9 V (symmetrical), just a few mA.
 - **Gain at 1 kHz:** x50 (+34 dB)
 - **Input sensitivity:** 3.6 mV (for 180 mV output)
 - **Input impedance:** determined by `Rx/Cx`, either internal or external.
