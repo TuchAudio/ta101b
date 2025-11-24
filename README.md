@@ -11,12 +11,12 @@ Just like the original build, a **subsonic filter** is integrated into the board
 
 DIN and RCA jacks are provided for signal input. Since the _native_ input impedance, being a symmetric op-amp design, is expected to be **extremely high**, space for suitable load (`Rx` and `Cx`) is provided for perfect adaptation; but for added flexibility, it is possible to use the free input for a suitable RC combo in parallel, to match the appropriate cartridge load.
 
-Both direct and subsonic-filtered outputs are provided, and properly selected thru the [509 Input Selector board](). An aditional RCA **output** jack can be installed in order to use the circuit as a _stand-alone preamp_.
+Both direct and subsonic-filtered outputs are provided, and properly selected thru the [509 Input Selector board](../../../ta509). An aditional RCA **output** jack can be installed in order to use the circuit as a _stand-alone preamp_.
 
 ### Suggested mods
 
 #### Subsonic output
-As previously mentioned, both direct and subsonic outputs are provided, and selected thru the _509 Input Selector Board_; in case a non-selecting board is used (like the [501 Input Selector board]()), you can break the `JP1` and `JP2` jumpers to route the _subsonic_ output to the bus-style/RCA jack output instead (with suitable external bodge wires).
+As previously mentioned, both direct and subsonic outputs are provided, and selected thru the _509 Input Selector Board_; in case a non-selecting board is used (like the [501 Input Selector board](../../../ta501)), you can break the `JP1` and `JP2` jumpers to route the _subsonic_ output to the bus-style/RCA jack output instead (with suitable external bodge wires).
 
 #### DC-block
 While being fully DC-coupled is definitely desirable from a sound quality standpoint, it may be troublesome in some extreme cases, especially with _warped_ records. If this is a concern, adding a suitable _capacitor_ (**~100 µF**) in the feedback loop will prevent this. Just lift one pin of `R9/R109` and bodge the capacitor _in series_. **There is no need to use `R+/R-`** in that case, and you should remove them in order to check the _offset polarity_; mount the extra capacitor consequently.
