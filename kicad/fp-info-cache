@@ -1,4 +1,4 @@
-24562087982330406
+24563866504143412
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89981,6 +89981,13 @@ Resistor_THT
 R_Axial_DIN0516_L15.5mm_D5.0mm_P30.48mm_Horizontal
 Resistor, Axial_DIN0516 series, Axial, Horizontal, pin pitch=30.48mm, 2W, length*diameter=15.5*5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0516 series Axial Horizontal pin pitch 30.48mm 2W length 15.5mm diameter 5mm
+0
+2
+2
+Resistor_THT
+R_Axial_DIN0614_L14.3mm_D4mm_P17.78mm_Horizontal
+Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=20.32mm, 1.5W, length*diameter=14.3*5.7mm^2
+Resistor Axial_DIN0614 series Axial Horizontal pin pitch 20.32mm 1.5W length 14.3mm diameter 5.7mm
 0
 2
 2
