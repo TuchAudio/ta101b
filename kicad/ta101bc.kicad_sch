@@ -4760,6 +4760,26 @@
 		)
 		(uuid "ff77439f-7b8a-49c9-ab45-8d373c2728bc")
 	)
+	(text "use 120 with TA191 MC"
+		(exclude_from_sim no)
+		(at 135.89 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a504f629-61cb-4add-84f7-95c9be11797e")
+	)
+	(text "use 120 with TA191 MC"
+		(exclude_from_sim no)
+		(at 134.366 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b285e711-e5ef-40fb-b534-e531f1632fe9")
+	)
 	(label "NNC"
 		(at 49.53 41.91 0)
 		(effects
